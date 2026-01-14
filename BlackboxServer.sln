@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackboxServer", "BlackboxServer\BlackboxServer.csproj", "{700C1B0C-6DDE-43D5-B201-C8D758049691}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{900C05C5-9DDB-46DD-A867-7489BED43805}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{700C1B0C-6DDE-43D5-B201-C8D758049691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700C1B0C-6DDE-43D5-B201-C8D758049691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700C1B0C-6DDE-43D5-B201-C8D758049691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700C1B0C-6DDE-43D5-B201-C8D758049691}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CCC9DE8-203A-4B7A-A5F1-D45804B4834B}
+	EndGlobalSection
+EndGlobal

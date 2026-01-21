@@ -233,7 +233,7 @@ namespace BlackboxServer
                 ProductOrder = ProductionOrder
             };
 
-            var request = (HttpWebRequest)WebRequest.Create("http://as-dehq-erp-p.prod.local:8000/sap/zrfc?sap-client=010&class=ZCL_TSYSTEM_INTERFACE");
+            var request = (HttpWebRequest)WebRequest.Create("http://as-dehq-erp-p.prod.local:8000/sap/zrfc?sap-client=000&class=ZCL_TSYSTEM_INTERFACE");
             request.Credentials = new NetworkCredential("5010-rfc", "rfc5010KebAm");
             request.CookieContainer = new CookieContainer();
             request.Method = "POST";
@@ -426,4 +426,5 @@ namespace BlackboxServer
         }
     }
 }
+
 

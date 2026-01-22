@@ -3,7 +3,7 @@
 // Machine Type (no caps)
 	Type = smooth
 	// MT Connect address
-	MTAddress = 192.168.200.25:5112
+	MTAddress = 192.168.200.1:5000
 	// MT Connect Pathway
 	MTPathAddress = /Path[@id='path1' or @id='path2']/DataItems/DataItem[@id='execution' or @id='mode' or @id='PartCountAct' or @id='PartCountTarget' or @id='execution2' or @id='mode2' or @id='PartCountAct2' ]
 	// PLC address
@@ -18,3 +18,4 @@
 
 	/* There needs to be a space after the "=" sign otherwise the import will not work. */
 	// this 
+

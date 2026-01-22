@@ -57,9 +57,9 @@ namespace BlackboxServer
         {
 
 #pragma warning disable SYSLIB0014 // Type or member is obsolete
-            var request = (HttpWebRequest)WebRequest.Create("http://as-dehq-erp-p:8000/sap/zrfc?sap-language=&sap-client=010&class=ZCL_HTTP_READ_ORDER_CONFIRM");
+            var request = (HttpWebRequest)WebRequest.Create("http://SAPAddress=&sap-client=010&class=ZCL_HTTP_READ_ORDER_CONFIRM");
 #pragma warning restore SYSLIB0014 // Type or member is obsolete
-            request.Credentials = new NetworkCredential("5010-rfc", "rfc5010KebAm");
+            request.Credentials = new NetworkCredential("SAPUsername", "SAPPassword");
             request.CookieContainer = new CookieContainer();
             request.Method = "POST";
 
@@ -426,3 +426,4 @@ namespace BlackboxServer
         }
     }
 }
+

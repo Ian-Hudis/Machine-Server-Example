@@ -1,3 +1,4 @@
+PLC Server for data extraction.
 
 Configure the ServerData.txt file:
 

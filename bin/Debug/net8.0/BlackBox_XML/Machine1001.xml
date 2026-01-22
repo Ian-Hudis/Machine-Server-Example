@@ -1,0 +1,23 @@
+<Machine1001>
+  <Time Update="V3.4: 11/20/2025 12:57:11 PM">Last_Updated</Time>
+  <PLC_Entry SUP="">supervisor</PLC_Entry>
+  <PLC_Entry Oper="">operator</PLC_Entry>
+  <PLC_Entry CN="">ConfirmationNumber</PLC_Entry>
+  <SAP Prod_Order="">production_order</SAP>
+  <SAP Operation="">Operation</SAP>
+  <SAP Material="">material</SAP>
+  <SAP TargetPartCount="0">targetpartcount</SAP>
+  <SAP CT="0">IdealCycleTime</SAP>
+  <SAP LT="0">IdealLoadTime</SAP>
+  <SAP BQ="0">BaseQuantity</SAP>
+  <SAP Setup="0">SAP_Setup_Time</SAP>
+  <SAP MCT="0">MachineCycletime</SAP>
+  <Mode Status="">mode</Mode>
+  <Event Event="">event</Event>
+  <Override Override="Unpressed">override</Override>
+  <MT_Connect MachineState="IDLE">CurrentState</MT_Connect>
+  <MT_Connect MachineState2="N/A">CurrentState</MT_Connect>
+  <MT_Connect PartCount="312">partcount</MT_Connect>
+  <MT_Connect PartCount2="N/A">partcount2</MT_Connect>
+  <PLC_SpecialEntry Comment="">comment</PLC_SpecialEntry>
+</Machine1001>

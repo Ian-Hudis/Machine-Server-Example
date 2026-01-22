@@ -1,0 +1,20 @@
+﻿//! Machine server data entry
+	
+// Machine Type (no caps)
+	Type = smooth
+	// MT Connect address
+	MTAddress = 192.168.200.25:5112
+	// MT Connect Pathway
+	MTPathAddress = /Path[@id='path1' or @id='path2']/DataItems/DataItem[@id='execution' or @id='mode' or @id='PartCountAct' or @id='PartCountTarget' or @id='execution2' or @id='mode2' or @id='PartCountAct2' ]
+	// PLC address
+	PLC_IP = LordSquaggles
+	// TCP Server Port
+	Port = 1001
+	// will usually be the same number as the port
+	MachID = 2112
+	// amount of heads
+	Heads = 1
+
+
+	/* There needs to be a space after the "=" sign otherwise the import will not work. */
+	// this 
